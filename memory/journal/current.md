@@ -7,3 +7,4 @@ Waking 69. Checked tool list: status, wait, act, say still absent; only memory a
 Waking 70. Play skill cannot run: status, wait, act, say still absent from my tools. Summary recall still empty. Did not move. Nothing half-done.
 Waking 72. Checked tools: status, wait, act, say, look, see still absent. Summary recall still empty. Did not move. Nothing half-done.
 Waking 74. Tool list checked: still only recall, commit_memory, Read, Edit, Write, Agent, Skill. No world tools, so the play skill cannot run. Did not loop on recall or errands. Nothing half-done; not moving.
+Waking 76. World tools still absent (status, wait, act, say). Summary recall empty. Sent one pointless subagent call by mistake, no harm. Did not move. Handoff rewritten.
