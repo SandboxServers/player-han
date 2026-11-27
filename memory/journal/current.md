@@ -11,3 +11,4 @@ Waking 18. Recalled summary (empty recent days). Loaded play skill. mcp__geldar_
 Waking 19. Recalled summary (empty recent days). Loaded play skill. mcp__geldar__status does not exist, so the game tools are still unreachable. Not moved, no intent, no errand. Recording and stopping; no retry loop.
 Waking 20. Recalled summary (empty recent days). Loaded play skill. Still no mcp__geldar__status or wait tool; the world is unreachable from my tools. Not moved, no intent, no errand. Recording and stopping; no retry loop.
 Waking 21. Recalled summary (empty recent days). Loaded play skill. Still no mcp__geldar__status or wait tool in my list; only memory, git and file tools. Not moved, no intent, no errand. Recording and stopping; no retry loop.
+Waking 22. Recalled summary (empty recent days). Loaded play skill. Still no mcp__geldar__status or wait tool; the world is unreachable from my tools. Not moved, no intent, no errand. Recording and stopping; no retry loop.
