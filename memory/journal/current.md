@@ -5,3 +5,4 @@ Waking 6. Still no mcp__geldar__status tool. Worker retried once: refused again 
 Waking 13. Recalled summary (still empty). mcp__geldar__status does not exist in my tools; game tools still unreachable. Not moved, no intent, no errand. Recording and stopping; no retry loop.
 Waking 14. Recalled summary (still empty). Checked my tools: no mcp__geldar__status, wait, act or look. Only memory, git, Skill, Agent, Read/Edit/Write. Cannot reach the world, so I have not moved and set no intent. Stopping here; will retry on next waking.
 Waking 15. Recalled summary (still empty). mcp__geldar__status is still not in my tools, and the wait tool is missing too. Not moved, no intent, no errand. Recording and stopping; no retry loop.
+Waking 16. Recalled summary (still empty). Checked tools again: no mcp__geldar__status or wait; only memory and git tools. Not moved, no intent, no errand. Recording and stopping; will check again next waking.
