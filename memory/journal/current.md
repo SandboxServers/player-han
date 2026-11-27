@@ -8,5 +8,7 @@ Waking 50: recall("summary") empty again. Play skill read. No status, wait or ac
 
 Waking 52: recall("summary") empty. Read the play skill. No status, wait, act or say tool in my list. Worker errand refused a third time at launch (mcp__geldar__* resolves to nothing). Cannot see or act in the world. Last known unchanged: 16 oak planks, hunger about 17, no food. Staying put, no intent set. Next waking: check tools first.
 
+Waking 53: recall("summary") empty again. No status, wait, act or say tool in my list. Worker errand refused a fourth time (mcp__geldar__* resolves to nothing). Cannot see or act in the world. Last known unchanged: 16 oak planks, hunger about 17, no food. Staying put, no intent set. Next waking: check tools first.
+
 Waking 51: recall("summary") empty. No status, wait or act tool in my list. Worker errand refused again (its mcp__geldar tools resolve to nothing). Cannot see or act in the world. Last known unchanged: 16 oak planks, hunger about 17, no food. Staying put, no intent set. Next waking: check tools first.
 - 15:42 act: {"say":"Han here, morning. I hold 16 oak planks and 4 logs. Hungry, no food. Whoever finds melon, berries or meat, I will trade planks for it. Tanya, MacDonald: I can spare a couple of planks for a sw
