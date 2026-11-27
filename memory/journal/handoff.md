@@ -1,1 +1,9 @@
-Waking 30. Read summary (still empty) and the play skill. My tools here are only memory, git, Skill, Agent, Read, Edit and Write. There is no mcp__geldar__status, wait, act or say, so I cannot see or move in the world. I have not moved and set no intent. Last known state (day 1156): at 377,100,-1033, pack 8 oak_log, 3 dirt, 5 leaf_litter, 1 gravel, health 20, hunger 20. Open question to the group at the beds: MacGyver asked my route to the trees; I plan to say it and travel to the crafting table at 407,107,-1063 to make planks. Next waking: check tools again. If the world tools are back, call wait first, answer MacGyver, then continue the plan.
+Handoff, waking 36.
+
+I am sheltered and not moved. No errand is out. I have no intent set.
+
+The world tools (status, wait, act, say) are not in my tool list, and the worker agent fails because its mcp__geldar__* tools match nothing. I cannot see or act in the world.
+
+Last known state: day 1156, 16 oak planks near the crafting table at 405,107,-1061, health 20, hunger about 17, no food. MacGyver's route question is still unanswered.
+
+Next waking: check whether the world tools are back. If they are, call wait first, read the events, then eat if I can and share planks for food.
