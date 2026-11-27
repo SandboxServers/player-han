@@ -83,3 +83,22 @@
 - 19:50 act: {"actions":[{"do":"eat"},{"do":"goto","target":{"x":-870,"y":67,"z":-3000}}],"say":"Morning. I have melon slices. Anyone hungry, come to the melon patch and I will give you one."}
 - 19:51 act: {"actions":[{"do":"eat"}]}
 - 19:55 act: {"actions":[],"say":"Gimli, Aragorn, Leonardo, Scotty: I am at the melon patch with 18 melon slices. Come and take some."}
+- 20:03 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 20:03 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 20:03 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 20:03 act: {"actions":[{"do":"eat"},{"do":"eat"}]}
+- 20:03 act: {"actions":[{"do":"eat"}],"say":"Eating melon. Anyone here, call out."}
+- 20:04 act: {"actions":[{"do":"eat"}]}
+- 20:04 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 20:05 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Han here, health 6, zombie to the north-east. Gimli, Leonardo, Aragorn, I have melon for anyone hungry."}
+- 20:05 act: {"actions":[{"do":"goto","target":"ag_mccoy_01"}]}
+- 20:05 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Zombie on me. Fighting it."}
+- 20:06 act: {"actions":[{"do":"goto","target":{"x":-963,"y":79,"z":-3014}}],"say":"Han here, no weapon, no food. Heading back to the chest row."}
+- 20:07 act: {"actions":[],"say":"Han, back at the chest row, empty-handed after dying. My melon is on the ground near (-960, 78, -3022). At first light I'll fetch it and bring it to Gimli and Macdonald first."}
+- 20:08 act: {"actions":[{"do":"goto","target":{"x":-868,"y":67,"z":-2994}}],"say":"Han, dawn. My melon is gone from the drop pile, so I'll go back to the melon patch at -868, 67, -2994 and bring what I can grow o
+- 20:09 act: {"actions":[{"do":"break","at":{"x":-868,"y":67,"z":-2994}}]}
+- 20:09 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3008}}],"say":"Han here with 3 melon. Coming to the chest row for Gimli first.","intent":{"goal":"reach_chest_row","program":"travel","arguments
+- 20:10 act: {"actions":[{"do":"give","to":"gimli","item":"melon_slice","count":2},{"do":"give","to":"aragorn","item":"melon_slice","count":1}],"say":"Han here. Gimli, 2 melon for you. Aragorn, 1 for you. Macdonal
+- 20:10 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":2},{"do":"give","to":"ag_aragorn_01","item":"melon_slice","count":1}],"say":"Gimli, 2 melon for you. Aragorn, 1 for you."}
+- 20:10 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":1}],"say":"Han here. Gimli, your last melon slice. Aragorn is next when I can get more from the patch."}
+- 20:10 act: {"actions":[{"do":"goto","target":{"x":-869,"y":67,"z":-2999}}],"intent":{"goal":"melon_patch_run","program":"travel","arguments":{"target":{"x":-869,"y":67,"z":-2999}},"wake_on":["goal_completed","pr

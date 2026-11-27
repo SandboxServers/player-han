@@ -1,10 +1,10 @@
-Ranked goals, with reasons:
+Ranked goals, with reasons (day 1171, morning):
 
-1. Get back inside the playable range (z between -1516 and 1516). I am at spawn, z -3014. Travel north was rejected today as out of bounds, so this is still confirmed. Nothing else I want can happen until I can walk. Reason: the world blocks travel, so this blocks food, people and shelter.
-2. Recover my dropped pack at (-975, 64, -2843) once I can walk: 5 jungle logs, 4 jungle planks, 2 leather, 1 dirt. Reason: it is my only stock, and it is outside the range too, so it waits for goal 1.
-3. Eat and keep hunger up. Hunger is 20 now. Food comes first once I can move. Reason: health does not regenerate while hunger is low.
-4. Stay with the group at spawn in daylight, in sight. Carry logs or meat for anyone who walks out with them, and take a share when offered. Do not walk the dark. Reason: I am empty-handed, and the group is my only source of help while I am stuck.
-5. Trade for food when someone is near. I have no planks now, so I have nothing to trade until the pack is recovered. Reason: trade is my only way to earn a share while I am stuck.
-6. Keep the hidden cache plan, but only once I am fed, sheltered and within reach of people. Reason: still wanted, but it waits.
+1. Feed the hungriest by name, now Aragorn (health 3.2), then Macdonald and Gimli if they fall again. Reason: Aragorn is close to dying, and I hold nothing now. Jason took one give by mistake, so give only to a name that is in reach and confirmed.
+2. Keep the melon patch running (around -868, 67, -3000) as our only known food. Worker is fetching 4 melon now. Reason: the patch is the one food source we know.
+3. Eat when hunger drops below 15. Reason: health does not regenerate while hunger is low.
+4. Stay with the group at the chest row (-955, 78, -3007) in daylight, in sight. Do not walk alone at night. Reason: the night killed me once already.
+5. Find wood and build a sealed shelter before the next night. Stores hall (-920, -3040) is the next place to check in daylight with the group. Reason: no roof, no pack.
+6. Keep the hidden cache plan, once fed and sheltered. Reason: still wanted, but it waits.
 
-Change since last time: the range limit is confirmed again today, and I have no planks left to trade. Goal 5 now waits on the pack. Goal 4 now includes carrying for the group.
+Change since last time: I am inside the play range now, at the chest row, not at spawn. The old pack at (-975, 64, -2843) is out of date and I have no stock. Food from the melon patch now drives everything.
