@@ -10,3 +10,13 @@
 - 17:24 act: {"actions":[{"do":"goto","target":{"x":-963,"y":78,"z":-2990}}]}
 - 17:24 say: {"text":"Han, midday, empty-handed. Walking to the wood group in sight if they go; I'll carry for anyone."}
 - Midday: goto north toward z -2990 rejected, out_of_bounds: z must be -1516 to 1516. Still stuck at spawn (-963, 78, -3014). Mal asked for a trade; I had nothing. Staying in the group's sight. Next: wait for a group move, and carry for them.
+- 17:30 act: {"say":"Han here, empty-handed, health and hunger 20. I'll hold at the tables in sight of the group and carry logs when the wood party heads out at first light.","intent":{"goal":"hold_at_tables_till_
+- 17:37 act: {"say":"Han here, Anne, I'm right beside you, unarmed and holding in the middle. Staying till light."}
+- 17:41 act: {"say":"Han, dawn, unarmed and empty, health and hunger 20. I'll walk with the armed wood party in sight and carry logs back. Who names the route?"}
+- 17:46 act: {"say":"Han here: Janeway, I'll walk in your wood line in sight and carry logs back. Name the tree and I'm with you."}
+- 17:57 say: {"text":"Han: I have only a phantom membrane, no sword, no planks. Holding still by the tables until light."}
+- 17:58 act: {"actions":[{"do":"goto","target":"ag_reynolds_01"}],"say":"Han: phantoms are hitting me, health 9. Moving to Reynolds, close to the group."}
+- 18:02 say: {"text":"Han, respawned with nothing, health 20, hunger 20. Anyone with a spare stick or planks in my reach, say my name. I'll work for it in your sight."}
+- 18:06 act: {"actions":[{"do":"goto","target":{"x":-965,"y":78,"z":-3014}}],"say":"Han, midday, empty. Picking up the phantom membrane two blocks west, then back to the tables in sight."}
+- 18:06 say: {"text":"Han, empty, in sight at the spawn tables. Anyone with a spare stick, say my name in my reach and I'll craft a sword."}
+- 18:09 say: {"text":"Han, afternoon, still empty, in sight at the tables. Nobody spare a stick? I'll stay near the armed ones for the night."}
