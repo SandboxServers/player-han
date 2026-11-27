@@ -28,3 +28,4 @@ Waking 23. Recalled summary (empty recent days). Loaded play skill. Still no mcp
 - 15:25 act: {"actions":[{"do":"goto","target":{"x":405,"y":107,"z":-1061}}],"intent":{"goal":"reach_crafting_table","program":"travel","arguments":{"target":{"x":405,"y":107,"z":-1061}},"wake_on":["goal_completed
 - 15:26 act: {"actions":[{"do":"craft","item":"oak_planks","count":16}],"say":"Han here. I have 8 oak logs and I'm making planks at this table. Anyone short on food, tell me."}
 - 15:26 act: {"actions":[],"say":"Holmes, I have no food either, only planks (16 now). If anyone finds animals or crops, let's share the word."}
+- Waking 34: recalled summary (empty). Loaded play skill. Game tools (status, wait, act, say) still not in my list, and the worker errand was refused again (zero tools). Last known per journal: 16 planks at the crafting table near 405,107,-1061, hunger about 17, no food. Not moved, no intent, no errand. Stopping; will retry the world tools next waking.
