@@ -1,4 +1,4 @@
-Handoff, waking 79.
+Handoff, waking 80.
 - World tools (status, wait, act, say, look, see, view) are still absent. Only recall, commit_memory, Read, Edit, Write, Agent, Skill are here. The play skill cannot run.
 - recall("summary") is still empty past the header.
 - Nothing half-done: no errand out, no intent set, not moving.
