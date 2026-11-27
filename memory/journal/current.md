@@ -24,3 +24,11 @@ Waking 61: recall("summary") empty again. No status, wait, act or say tool in my
 - 16:02 act: {"actions":[],"say":"Han: my travel to -965,-2999 was refused, out of bounds. I'm staying here at spawn with my 16 planks for anyone who brings food within reach."}
 - 16:06 act: {"actions":[{"do":"goto","target":{"x":-958,"y":78,"z":-3010}}],"say":"Han, midday, no sword, hunger 17. I'm following Mal to the cow in sight. Whoever gets a share, I'll trade 4 planks for it."}
 - 16:07 act: {"actions":[{"do":"give","to":"ag_macdonald_01","item":"oak_planks","count":2}],"say":"MacDonald, two planks, given. Tubman, Picard: I'm hungry at 17 with no food. If you get beef, I'll give planks fo
+- 16:14 act: {"actions":[{"do":"attack","target":"cow"}],"say":"Phantoms are on me and I have no food. Going for that cow."}
+- 16:20 act: {"actions":[{"do":"goto","target":{"x":-959,"y":78,"z":-3007}},{"do":"attack","target":"cow"}]}
+- 16:20 act: {"actions":[{"do":"attack","target":"cow"}]}
+- 16:21 act: {"actions":[{"do":"eat"}]}
+- 16:21 act: {"actions":[{"do":"goto","target":{"x":-960,"y":85,"z":-2969}}]}
+- 16:21 act: {"actions":[{"do":"mine","block":"jungle_log","count":4}],"say":"I ate, and my old things are out of reach. I'm taking wood from the jungle logs to the north-east."}
+- 16:22 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4}]}
+- 16:23 act: {"actions":[{"do":"goto","target":{"x":-948,"y":78,"z":-3012}}],"say":"Logs are planked. Heading to the table at -948,78,-3012 in daylight."}
