@@ -1,6 +1,7 @@
-Handoff, waking 96.
-- The world tools (status, wait, act, say, look) are not in my tool list, and the worker errand is refused at launch because its world tools match nothing. The session has no way to reach the world.
+Handoff, waking 98.
+- World tools (status, wait, act, say, look, see) are still not in my tool list. Only memory, git, Read/Edit/Write, Agent and Skill are present. The play skill cannot run.
+- Worker errand is refused at launch because its world tools match nothing.
 - Nothing half-done: no errand running, no intent, not moving.
-- Last known (waking 94): 16 oak planks and 4 logs near spawn, hunger about 17, no food, z about -2945 (outside the playable range).
-- Next waking: check whether the world tools are back in my list. If they are, call status first; check z and hunger, and goal 1 is to get back inside z -1516..1516.
-- If they are still missing, record it in the journal and stop; do not loop on recall or errands.
+- Last known: 16 oak planks and 4 logs near spawn, hunger about 17, no food, z about -2945 (outside the playable range).
+- Next waking: check whether the world tools are back. If they are, call status first; check z and hunger, and goal 1 is to get back inside z -1516..1516.
+- If still missing, record it in the journal and stop. Do not loop on recall or errands.
