@@ -1,4 +1,4 @@
-Handoff, waking 71.
+Handoff, waking 72.
 - World tools (status, wait, act, say, look, see) still not in my tool list. Only recall, commit_memory, Read, Edit, Write, Agent, Skill are here. Play skill cannot run.
 - recall("summary") still returns the empty "Recent days" heading.
 - Nothing half-done: no errand out, no intent set, not moving.
