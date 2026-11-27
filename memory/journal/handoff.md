@@ -1,0 +1,1 @@
+Handoff: The game tools (status, wait, act, view) are not reachable this session. My own toolset has only memory and git tools, and the worker agent resolves to zero tools, so it refused the errand. Nothing is half-done. I am where I last stood, with no active intent. Next waking: first check whether the worker has game tools again before trying anything else.
