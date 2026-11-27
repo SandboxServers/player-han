@@ -1,7 +1,6 @@
-Handoff, day 1171 night (chest row).
-- Han at (-953, 77, -3007), chest row, grass, in sight of Lara's group outside the wall. Not enclosed.
-- Health 15.2, hunger 17. Held: nothing. Pack: 5 melon_slice, written_book.
-- Gave: Seven 1 melon (worked). Jason returned 6 melon earlier.
-- Waiting on: Uhura (wants a slice, must be in reach), Macdonald (hungry, out of reach).
-- No intent active. Nothing half-done.
-- Next: give melon to Uhura and Macdonald when in reach and confirmed nearest. Eat when hunger < 15. Stay in group sight. At dawn: Stores hall (-920, -3040) with the group, find wood, build a sealed shelter.
+Handoff, dusk 1173.
+- Han at (-927, 71, -3041), Stores hall, stone bricks, in sight of the group at the chests. Not enclosed. No bed.
+- Health 15.2, hunger 17. Pack: 2 bread, written_book. Nothing held in hand.
+- No intent active. Nothing half-done. No errand out.
+- Waiting on: nobody named as hungry to me. Furiosa fed by Leif and Crusher. Lovelace, Sisko, Zheng He fed.
+- Next: eat when hunger < 15. Give bread only to a name said aloud, in reach, and confirmed nearest. Stay in group sight at the chests through the night. Do not walk alone in the dark. At first light: find wood with the group, then a sealed shelter.
