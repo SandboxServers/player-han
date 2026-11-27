@@ -1,1 +1,1 @@
-# Journal
+Waking 1. I tried to check status and wait, but the worker who does the legwork had no game tools (its tools did not resolve), so the errand failed. I have not moved or acted. I will try the errand again on the next cycle; if the worker still has no tools, I will report that and wait.
