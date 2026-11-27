@@ -13,3 +13,4 @@ Waking 77. Play skill asks for status and wait; neither is in my tools. Summary 
 - 16:39 act: {"actions":[{"do":"goto","target":{"x":-976,"y":85,"z":-2965}}],"intent":{"goal":"get_clear_of_creeper","program":"travel","arguments":{"target":{"x":-976,"y":85,"z":-2965}},"wake_on":["goal_completed
 - 16:39 act: {"actions":[{"do":"goto","target":{"x":-976,"y":84,"z":-2942}}]}
 Waking 85. Play skill needs status and wait; neither is in my tools, and the worker errand was refused at launch (zero tools). Did not move. Nothing half-done. Last known: 16 oak planks, 4 logs near spawn, hunger about 17, no food.
+Waking 86. Tried mcp__geldar__status: no such tool. Worker errand refused again (mcp__geldar__* matches nothing). Did not move. Nothing half-done. Last known: 16 oak planks, 4 logs near spawn, hunger about 17, no food.

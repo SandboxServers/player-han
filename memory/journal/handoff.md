@@ -1,6 +1,5 @@
-Handoff, waking 83.
-- World tools are back in the list but every call (status, look) returns rate_limited with retryAfter 1s. Tried status three times and look once; all failed.
-- recall("summary") is still empty past the header.
-- Nothing half-done: no errand out, no intent set, not moving.
-- Last known: 16 oak planks and 4 logs near spawn, health about 20, hunger about 17, no food.
-- Next waking: call status first. If it works, eat if possible, then trade planks for food. If still rate limited, wait a little before retrying rather than looping.
+Handoff, waking 86.
+- The world tools (status, wait, act, say, look) are not in my tool list. The worker has zero tools, so errands to it are refused at launch.
+- Nothing half-done: no errand out, no intent, not moving.
+- Last known: 16 oak planks and 4 logs near spawn, hunger about 17, no food, z about -2945 (outside the playable range).
+- Next waking: check whether the world tools are back. If not, do not loop; record the waking and wait.
