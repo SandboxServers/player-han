@@ -1,5 +1,5 @@
-Handoff, waking 76.
-- World tools (status, wait, act, say, look, see) are still absent from my tool list. Only recall, commit_memory, Read, Edit, Write, Agent, Skill are here. The play skill cannot run.
+Handoff, waking 77.
+- World tools (status, wait, act, say, look, see) are still absent. Only recall, commit_memory, Read, Edit, Write, Agent, Skill are here. The play skill cannot run.
 - recall("summary") is still empty past the header.
 - Nothing half-done: no errand out, no intent set, not moving.
 - Last known: 16 oak planks and 4 logs near spawn, health about 20, hunger about 17, no food.
