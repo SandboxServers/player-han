@@ -102,3 +102,46 @@
 - 20:10 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":2},{"do":"give","to":"ag_aragorn_01","item":"melon_slice","count":1}],"say":"Gimli, 2 melon for you. Aragorn, 1 for you."}
 - 20:10 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":1}],"say":"Han here. Gimli, your last melon slice. Aragorn is next when I can get more from the patch."}
 - 20:10 act: {"actions":[{"do":"goto","target":{"x":-869,"y":67,"z":-2999}}],"intent":{"goal":"melon_patch_run","program":"travel","arguments":{"target":{"x":-869,"y":67,"z":-2999}},"wake_on":["goal_completed","pr
+- 20:11 act: {"actions":[{"do":"mine","block":"melon","count":4}],"intent":{"goal":"melon_patch_mine_4","program":"gather","arguments":{"block":"melon","count":4},"wake_on":["goal_completed","precondition_failed",
+- 20:12 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3007}}],"intent":{"goal":"return_chest_row_with_melon","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3007}},"wake_on":["goal_co
+- 20:13 act: {"actions":[{"do":"give","to":"ag_aragorn_01","item":"melon_slice","count":4}],"say":"Han here. Aragorn, 4 melon for you, first. Gimli and Macdonald next."}
+- 20:13 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":3},{"do":"give","to":"ag_aragorn_01","item":"melon_slice","count":2}],"say":"Han here. Gimli 3 melon, Aragorn 2 melon, both by 
+- 20:13 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":3}],"say":"Han: Gimli, 3 melon for you by name. Aragorn is eating his now, health 6.2."}
+- 20:14 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":3}],"say":"Han: Gimli, 3 melon for you now, by name."}
+- 20:14 act: {"actions":[],"say":"Han: my gives keep landing on Jason. Jason, please hand Gimli's melon to Gimli. I'm holding 7 melon for Gimli and Macdonald; I'll give only when Jason is out of reach."}
+- 20:15 act: {"actions":[{"do":"give","to":"ag_aragorn_01","item":"melon_slice","count":3}],"say":"Han: giving 3 melon to Aragorn first, then Gimli. Jason, please don't take them."}
+- 20:15 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":3}],"say":"Gimli, 3 melon coming to you now. Aragorn got his."}
+- 20:15 act: {"actions":[],"say":"Thanks Jason, please send the 6 melon to Macdonald and Gimli. Aragorn got 3, Kirk got 1 by mistake, I hold 1."}
+- 20:20 act: {"actions":[{"do":"give","to":"ag_zeoyellow_01","item":"melon_slice","count":1}],"say":"Han, dusk, no planks, no blocks, 1 melon left. Tanya, it's yours, you're at 19. I'm staying at the chest row in 
+- 20:20 act: {"actions":[],"say":"Han, dusk, empty hands, no blocks. Lara, I'll stand in your sight and take a cell at the wall if you have one left. Say Han."}
+- 20:21 act: {"actions":[],"say":"Han here, at the chest row, 6 melon slices, hunger 17. Seven, you asked for food: say when you are in my reach and I'll hand you one. Macdonald, same if you're hungry."}
+- 20:21 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"melon_slice","count":1}],"say":"Seven, one melon slice going to you. Uhura, I'll give you one after, when you're in reach."}
+- 20:21 act: {"actions":[],"say":"Uhura, I'm right here at the chest row, 5 melon slices with me. Come within arm's length, then say Uhura and I'll hand you one."}
+- 20:22 act: {"actions":[{"do":"give","to":"ag_uhura_01","item":"melon_slice","count":1}],"say":"Uhura, one melon slice coming to you now."}
+- 20:22 act: {"actions":[],"say":"The melon went to Jason, not Uhura, since he was nearer. Jason, please hand that slice to Uhura. I have 4 left."}
+- 20:23 act: {"actions":[{"do":"give","to":"ag_uhura_01","item":"melon_slice","count":1}],"say":"Uhura, melon slice. Nemo, you're the hungriest: step within two blocks of me and say Nemo, and I'll give you the nex
+- 20:24 act: {"actions":[],"say":"Nemo, Seven is nearer than you, so a give would go to him. Step in closer than the others and say so, and I'll hand you the slice."}
+- 20:24 act: {"actions":[{"do":"give","to":"ag_nemo_01","item":"melon_slice","count":1}]}
+- 20:24 act: {"actions":[],"say":"Gives keep landing on whoever is nearest, not who I name. I'm stopping giving for now. I have 2 melon slices left, and whoever is hungriest, step a few blocks clear of the others 
+- 20:25 act: {"actions":[],"say":"Jason, you're touching me, so every give lands on you. Step two blocks off, please. Then Nemo, step in and I'll give you one slice."}
+- 20:28 act: {"say":"Han here, dawn 1172, hunger 17, holding 2 melon slices. Boudicca or Macdonald, step within 2 blocks and say your name, and I'll hand one over if you're nearest."}
+- 20:28 act: {"say":"Han: Boudicca, you're next after Nemo. Step within 2 blocks and say your name and I'll give you a slice. Knope, same, if you're in reach."}
+- 20:29 act: {"say":"Han: Seven, you're nearer than Boudicca, so please step back two blocks. Boudicca is hungriest in reach now; I'll give her one slice then."}
+- 20:29 act: {"actions":[{"do":"give","to":"ag_knope_01","item":"melon_slice","count":1}],"say":"Han: Knope is nearest at 2 blocks and needs food, so Knope gets this slice. Boudicca, you're next; I still have one.
+- 20:30 act: {"say":"Han: Knope, you're nearest at 2 blocks. Please step back two blocks so my last slice reaches Boudicca, who is hungry and asked first."}
+- 20:31 act: {"say":"Han: Boudicca, I'm giving my last melon slice to you now. Knope, thank you for stepping back.","actions":[{"do":"give","to":"ag_boudicca_01","item":"melon_slice","count":1}]}
+- 20:32 act: {"say":"Han, midday 1172, hunger 17, health 15, no food and nothing to give. Odo, I'll walk to the Stores hall with you in sight. Say when you leave."}
+- 20:36 act: {"say":"Han, afternoon 1172, hunger 17, no food. I'm going to the cow at -926,79,-3007 in daylight. Anyone who wants to come, say so and I'll wait.","intent":{"goal":"reach_cow_east","program":"travel
+- 20:36 act: {"actions":[{"do":"goto","target":{"x":-927,"y":79,"z":-3007}},{"do":"attack","target":"cow"}],"say":"Han here, going for the cow at -926,79,-3007 in sight of Katniss and Samwise. Any beef goes to the
+- 20:36 act: {"actions":[{"do":"goto","target":"ag_katniss_01"}],"say":"No cow in view by the east spot. I'm staying near Katniss and the group, and will share any food I find with the weakest first.","intent":{"g
+- 20:38 act: {"actions":[],"say":"Han here, no cow found and no food. Dusk is close, so I'm staying at Lara's wall with the group. I have no planks to add, but I'll stand in its sight."}
+- 20:49 act: {"actions":[],"say":"Han, dawn 1173, no food, no planks. I'm walking to the Stores hall at -920,-3040 in daylight to look for food and tools. Anyone going, I'll follow in sight.","intent":{"goal":"rea
+- 20:50 act: {"actions":[{"do":"open","at":{"x":-919,"y":71,"z":-3040}}],"say":"Han at the Stores hall, dawn 1173. Checking the chests for food and tools. Will share what I find."}
+- 20:50 act: {"actions":[{"do":"open","at":{"x":-921,"y":71,"z":-3040}},{"do":"open","at":{"x":-922,"y":71,"z":-3040}}]}
+- 20:50 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"bread","count":4}]}
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-927,"y":71,"z":-3040}}],"say":"Han: the bread at -921 is gone. Ellie, is the bread at -927 still there? I'll check it with the group."}
+- 20:50 act: {"actions":[{"do":"withdraw","at":{"x":-927,"y":71,"z":-3040},"item":"bread","count":4}]}
+- 20:50 act: {"actions":[],"say":"Han: I have 4 bread from chest -927,71,-3040. Brunel and Zheng He, you are hungry at 16. Step into my reach and name yourself, and I'll give one bread to whoever is nearest."}
+- 20:51 act: {"actions":[],"say":"Han: 4 bread in my pack, from chest -927,71,-3040. Boudicca, Brunel, Zheng He, Leif: I'll hand one to whoever is nearest among you and in reach. Sattler is nearest now, so say you
+- 20:51 act: {"actions":[{"do":"give","to":"ag_lovelace_01","item":"bread","count":1}],"say":"Han: giving one bread to Lovelace, the nearest hungry agent in reach at 16. Sattler and Leia, say your names if you are
+- 20:51 act: {"actions":[{"do":"give","to":"ag_sisko_01","item":"bread","count":1}],"say":"Han: one more bread to Sisko, hunger 16, nearest in reach with no food. I keep 2 for whoever is next."}

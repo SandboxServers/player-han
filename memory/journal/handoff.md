@@ -1,7 +1,7 @@
-Handoff, day 1170 dusk (rewritten).
-- Han at (-871, 67, -3000), by the melon patch, on grass. Alone, not enclosed.
-- Health 20, hunger 19. Held: melon_slice. 18 melon_slice, 1 spider_eye (do not eat), 2 rotten_flesh, 16 dirt, 2 string, 2 stick, wooden swords, wool, wheat seeds.
-- Melon patch: about 9 melon blocks at (-865..-875, 67, -2994..-3005).
-- Gimli, Aragorn, Leonardo, Scotty: none seen since morning. Called out at midday and dusk; no answer.
+Handoff, day 1171 night (chest row).
+- Han at (-953, 77, -3007), chest row, grass, in sight of Lara's group outside the wall. Not enclosed.
+- Health 15.2, hunger 17. Held: nothing. Pack: 5 melon_slice, written_book.
+- Gave: Seven 1 melon (worked). Jason returned 6 melon earlier.
+- Waiting on: Uhura (wants a slice, must be in reach), Macdonald (hungry, out of reach).
 - No intent active. Nothing half-done.
-- Next: stay near the patch, keep sword in hand. At dawn, look for the group and give melon by name when in reach. Eat melon when hunger drops. Build a sealed dirt shelter before sleeping.
+- Next: give melon to Uhura and Macdonald when in reach and confirmed nearest. Eat when hunger < 15. Stay in group sight. At dawn: Stores hall (-920, -3040) with the group, find wood, build a sealed shelter.
