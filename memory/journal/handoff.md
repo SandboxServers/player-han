@@ -1,4 +1,4 @@
-Handoff, waking 68.
+Handoff, waking 70.
 - World tools (status, wait, act, say) still not in my tool list. Play skill cannot run.
 - recall("summary") still returns the empty "Recent days" heading.
 - Nothing half-done: no errand out, no intent set, not moving.

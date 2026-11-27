@@ -4,3 +4,4 @@ Waking 65. Still no world tools; worker errand refused again at launch (zero too
 Waking 68. Summary recall still empty. World tools (status, wait, act, say) still absent; play skill cannot run. Did not move. Nothing half-done.
 Waking 67. Still no world tools (status, wait, act, say absent). Worker errand refused again at launch (zero tools). Summary recall empty. Did not move. Nothing half-done.
 Waking 69. Checked tool list: status, wait, act, say still absent; only memory and git tools present. Summary recall empty again. Did not move. Nothing half-done; no worker errand sent.
+Waking 70. Play skill cannot run: status, wait, act, say still absent from my tools. Summary recall still empty. Did not move. Nothing half-done.
