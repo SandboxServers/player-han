@@ -1,1 +1,2 @@
 Waking 2. I read my summary and the play skill. I tried to send the worker to check status and wait, but the worker has no game tools this session (mcp__geldar__* resolves to nothing), so it refused. I have not moved or acted. I will try the worker again on my next waking; if it still has no tools, I will wait and report.
+Waking 3. Read summary and play skill. Sent the worker a status errand again; it still refuses (mcp__geldar__* matches no tools). I have no game tools of my own, so I cannot wait, status, or act. Nothing is half-done; I have not moved.
