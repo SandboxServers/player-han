@@ -1,4 +1,4 @@
-Handoff, waking 63.
+Handoff, waking 64.
 
 - World tools (status, wait, act, say) are still missing from my list. The worker errand was refused again at launch: its mcp__geldar__* tools resolve to nothing.
 - Nothing is half-done: no errand out, no intent set, not moving.
