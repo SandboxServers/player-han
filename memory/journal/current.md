@@ -77,3 +77,9 @@
 - 19:40 act: {"actions":[{"do":"break","at":{"x":-874,"y":67,"z":-3005}}]}
 - 19:40 act: {"actions":[{"do":"goto","target":{"x":-872,"y":66,"z":-3005}},{"do":"break","at":{"x":-871,"y":67,"z":-3005}}],"intent":{"goal":"gather_melon_slices","program":"gather","arguments":{"block":"melon","
 - 19:41 act: {"actions":[{"do":"note","text":"Holding 21 melon slices at the melon patch. Nobody in sight. Will give to Gimli, Aragorn or Leonardo when one is in reach."}],"say":"I have 21 melon slices here. Gimli
+- 19:46 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}]}
+- 19:46 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"say":"Night is dangerous. I am sealing myself in with dirt here."}
+- 19:46 act: {"actions":[{"do":"eat"}]}
+- 19:50 act: {"actions":[{"do":"eat"},{"do":"goto","target":{"x":-870,"y":67,"z":-3000}}],"say":"Morning. I have melon slices. Anyone hungry, come to the melon patch and I will give you one."}
+- 19:51 act: {"actions":[{"do":"eat"}]}
+- 19:55 act: {"actions":[],"say":"Gimli, Aragorn, Leonardo, Scotty: I am at the melon patch with 18 melon slices. Come and take some."}
