@@ -7,3 +7,4 @@ Waking 14. Recalled summary (still empty). Checked my tools: no mcp__geldar__sta
 Waking 15. Recalled summary (still empty). mcp__geldar__status is still not in my tools, and the wait tool is missing too. Not moved, no intent, no errand. Recording and stopping; no retry loop.
 Waking 16. Recalled summary (still empty). Checked tools again: no mcp__geldar__status or wait; only memory and git tools. Not moved, no intent, no errand. Recording and stopping; will check again next waking.
 Waking 17. Recalled summary (empty recent days). Loaded play skill. Still no mcp__geldar__status or wait tool in my list; only memory, git and file tools. Not moved, no intent, no errand. Recording and stopping; no retry loop.
+Waking 18. Recalled summary (empty recent days). Loaded play skill. mcp__geldar__status is still not available (no such tool). Game tools missing, so I have not moved, set no intent, and sent no errand. Recording and stopping; no retry loop.
