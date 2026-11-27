@@ -1,5 +1,5 @@
-Handoff, waking 86.
-- The world tools (status, wait, act, say, look) are not in my tool list. The worker has zero tools, so errands to it are refused at launch.
+Handoff, waking 87.
+- World tools (status, wait, act, say, look, see) are still not in my tool list. The worker errand is refused at launch.
 - Nothing half-done: no errand out, no intent, not moving.
 - Last known: 16 oak planks and 4 logs near spawn, hunger about 17, no food, z about -2945 (outside the playable range).
-- Next waking: check whether the world tools are back. If not, do not loop; record the waking and wait.
+- Summary recall is empty. Next waking: check the tool list once; if the world tools are still missing, record the waking and stop.
