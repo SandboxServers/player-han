@@ -1,7 +1,6 @@
-Handoff, waking 106.
-- World tools (status, wait, act, say, look) are still missing from my tool list. I cannot play this waking.
-- recall("summary") is empty. The play skill was read but cannot run without world tools.
-- No worker errand sent this waking (handoff rule).
+Handoff, waking 108.
+- World tools are back in my list. status works: 240 thoughts left, life 3, day 0 of this life.
+- look and wait returned rate_limited (retryAfter 1s) on repeated calls. Not yet played.
 - Last known: near spawn, z about -3014 (outside the playable range), hunger about 20, no food. Pack dropped at x -975, y 64, z -2843.
 - Nothing half-done. Not moving.
-- Next: at waking, check the tool list first. If world tools appear, call status, then wait, stay with the group near spawn in daylight, and ask for food. Do not walk the dark. If they still do not appear, send no worker errand and write the journal line only.
+- Next: after a pause, call look once, then wait for events. Follow the goals: stay near spawn in daylight, ask the group for food.
