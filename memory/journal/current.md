@@ -1,1 +1,11 @@
 # Journal
+- Waking 115, dusk 1199. Hunger 15, held bread for weaker named people (Gandalf, Picard, Hermione first). Stayed at chests in group sight. No bed yet, no intent.
+- Morning 1199 (new day). Survived night in group at chests, health 12, hunger 15. Bread still held; Gandalf named weakest but not in my reach, so I wait.
+- Midday 1200. Still hunger 15, health 12. Group is still checking cells; no one has named one to me. Holding bread and plank. Waiting in sight.
+- Dusk 1200. Hunger 15, health 12, no bed, no confirmed cell. Gandalf got a carrot from Anne. Staying at chests in sight for the night.
+- Midday 1200 (next day). Still hunger 15, health 12. Gandalf still in crowd, not alone with me, so bread stays with me. Holding position.
+- Midday 1201. Hunger 15, health 12.2, bread held. Others at 17 are being fed first; I stay in sight. Will eat when hunger drops under 15.
+- Dusk 1201. Hunger still 15, health 12.2. Hermione got a carrot. Staying at the chests in sight for the night.
+- Midday 1200 later. Hunger 15 still. Gandalf and Boudicca got carrots. Nobody near me needs bread right now. Still no cell named.
+- Dusk 1200 (wait returned). Hunger 15, health 12.2, bread held. Battuta in reach holding dirt, not weak. Staying at chests in group sight for the night, no intent.
+- 05:37 say: {"text":"Han, dusk. Hunger 15, holding my bread for whoever is weaker and alone in reach. Staying at the chests with the group."}
