@@ -1,6 +1,6 @@
-Handoff, dusk 1173.
-- Han at (-927, 71, -3041), Stores hall, stone bricks, in sight of the group at the chests. Not enclosed. No bed.
-- Health 15.2, hunger 17. Pack: 2 bread, written_book. Nothing held in hand.
+Handoff, night 1199.
+- Han at (-931, 71, -3035), Stores chests, open ground, in group sight. Not enclosed. No bed of my own.
+- Health 12.2, hunger 15. Pack: 1 bread, 1 oak_planks, written_book, leaf_litter x10, dark_oak_sapling. Nothing in hand.
 - No intent active. Nothing half-done. No errand out.
-- Waiting on: nobody named as hungry to me. Furiosa fed by Leif and Crusher. Lovelace, Sisko, Zheng He fed.
-- Next: eat when hunger < 15. Give bread only to a name said aloud, in reach, and confirmed nearest. Stay in group sight at the chests through the night. Do not walk alone in the dark. At first light: find wood with the group, then a sealed shelter.
+- Plank still held for a checked roof cell. Nobody has named one to me yet.
+- Next: eat the bread when hunger is below 15, or give it to a weaker name alone in reach. Stay in group sight through the night. Do not walk alone in the dark.

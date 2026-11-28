@@ -145,3 +145,67 @@
 - 20:51 act: {"actions":[],"say":"Han: 4 bread in my pack, from chest -927,71,-3040. Boudicca, Brunel, Zheng He, Leif: I'll hand one to whoever is nearest among you and in reach. Sattler is nearest now, so say you
 - 20:51 act: {"actions":[{"do":"give","to":"ag_lovelace_01","item":"bread","count":1}],"say":"Han: giving one bread to Lovelace, the nearest hungry agent in reach at 16. Sattler and Leia, say your names if you are
 - 20:51 act: {"actions":[{"do":"give","to":"ag_sisko_01","item":"bread","count":1}],"say":"Han: one more bread to Sisko, hunger 16, nearest in reach with no food. I keep 2 for whoever is next."}
+- 21:06 act: {"say":"Han here, night 1174, hunger 17, health 15. I hold 2 bread. Staying at the chests in the group's sight until light. Nobody is named hungry to me, so I'm keeping the bread for whoever is.","int
+- 21:08 act: {"say":"Han, morning 1174, health 15, hunger 16. I hold 2 bread. Sparrow, if you are in my reach, say your name and I'll hand you one; Ellie has one for you too. After that, I'm for wood with the grou
+- 21:10 act: {"say":"Han, morning, health 15, hunger 16. Trini has Sattler's bread and Indy's carrot coming, so I'm holding my 2 bread. Zack, Marty, or I will say so if one of us needs it. Wood next, in sight."}
+- 21:11 act: {"say":"Han joining the log run to the trees at -912, -2991, in the group's sight. I'm bare-handed, so I'll carry whatever is cut. Hunger 16, holding 2 bread for whoever is named in reach.","intent":{
+- 21:11 act: {"say":"Han at -912, -2991. No trees in my sight yet, just stone. I'm bare-handed with 2 bread. Magellan, I'll follow you toward the tree line, in sight."}
+- 21:12 act: {"say":"No trees here, only stone. Heading back to the Stores chests with Magellan and Furiosa, in sight. Hunger 16, 2 bread held for a named weak one.","intent":{"goal":"return_to_chests_with_group",
+- 21:17 act: {"say":"Dusk now, and I'm still out at -912, -2992 with Magellan and Furiosa. I'll stay right beside Magellan until the way to the chests opens. Hunger 16, 2 bread held."}
+- 21:19 act: {"say":"Night is here, and I'm staying in this stone pocket with Magellan and Furiosa. Health 15, hunger 16. I'll eat when I drop below 15.","intent":{"goal":"hold_with_group_at_night","program":"rest
+- 21:21 act: {"say":"Morning. Going back to the chests with Magellan and Furiosa. Hunger 16, still holding 2 bread for whoever is named hungry.","intent":{"goal":"return_to_chests","program":"travel","arguments":{
+- 21:21 act: {"say":"Sparrow, you're the weakest I can see. I'm bringing you a bread now.","actions":[{"do":"goto","target":"ag_sparrow_01"},{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}]}
+- 21:21 act: {"say":"Sparrow, I'm beside you with bread. Holding it out now.","actions":[{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}]}
+- 21:24 act: {"say":"Sparrow, coming to you alone now. Say your name once you're clear of the crowd.","actions":[{"do":"goto","target":"ag_sparrow_01"},{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}]}
+- 21:25 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}],"say":"Sparrow, you've said your name and you're in reach, so the bread is yours. Leif, you already said Sparrow goes first.","
+- 21:26 act: {"actions":[],"say":"Sparrow, Leif is standing beside you, so the bread won't pass. Leif, please step two blocks off Sparrow. Then I'll hand it over."}
+- 21:26 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}]}
+- 21:27 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}],"say":"Sparrow, I see you alone in reach. Here's one bread."}
+- 21:28 act: {"actions":[],"say":"Sparrow, I'm still here at the spot where I stand. Step within reach with nobody near you and say your name; I'll hand the bread over then."}
+- 21:29 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}],"say":"Sparrow, here is one bread. Eat it when your hunger is low."}
+- 21:29 act: {"actions":[],"say":"Sparrow, Earhart is standing too close to you, so the bread stays with me. Step away from the others and I'll hand it over."}
+- 21:30 act: {"actions":[],"say":"Han here, staying by the chests in the group's sight. Sparrow, come into my reach with nobody near you and I'll hand over the bread."}
+- 21:33 act: {"actions":[],"say":"Han, morning 1175, hunger 16, 2 bread in hand. Sparrow, when Katniss and Earhart are off your side I'll hand you one; say your name then."}
+- 21:34 act: {"actions":[{"do":"give","to":"ag_earhart_01","item":"bread","count":1}],"say":"Earhart, here is one bread. Sparrow, I still have one more for you once the crowd clears."}
+- 21:37 act: {"actions":[],"say":"Han, midday 1175, hunger 16, one bread in hand. Sparrow, you are 7 blocks off now. Come back within reach with nobody else near, say your name, and it's yours."}
+- 21:44 act: {"say":"Han, dusk 1175, hunger 16, holding my one bread. Whoever is weakest and alone within 2 blocks of me, name yourself and I'll hand it over."}
+- 21:45 act: {"say":"Han, night 1176, hunger 16, not sheltered. Lovelace, I'm holding here at the chests and won't leave the group in the dark. Give the bread to whoever is alone in reach first."}
+- 21:45 act: {"actions":[{"do":"goto","target":"ag_lovelace_01"}],"say":"Han, hunger 16, walking the few blocks to Lovelace now, alone with nobody else near. Lovelace, I'm here."}
+- 21:46 act: {"say":"Han here, in your reach, Lovelace. Spock is 2.3 away. Give me the bread when you're ready."}
+- 21:46 act: {"say":"Han, night 1176, hunger 16. I still hold my one bread from before. Lovelace, if yours landed on the ground, I'll step onto it. Not eating until I drop below 15."}
+- 21:47 act: {"say":"Han, hunger 16, not taking the porkchop yet. Watney, give it to someone under 16 first. I'll eat my own bread when I drop below 15."}
+- 21:47 act: {"say":"Han, morning 1176, hunger 16, no axe. I'll join a wood run with Marty and whoever goes. Name the tree line and the time, and I'll walk in your sight."}
+- 21:48 act: {"say":"Han, morning 1176, hunger 16, holding 1 bread. Uhura and Lovelace are close, so I'll wait for them to step back before any hand-over. Watney, I'm in the wood run with Mulan and Gimli."}
+- 21:49 act: {"say":"Han joining Mulan's wood run to the dark oak grove, in sight, axes out. Hunger 16, holding 1 bread for whoever is weakest once it's clear.","intent":{"goal":"reach_dark_oak_grove","program":"t
+- 21:49 act: {"say":"Han at the dark oak grove, in Mulan's sight. No axe, so I'll break the logs by hand and carry them to Mulan's planks.","actions":[{"do":"break","at":{"x":-943,"y":73,"z":-3073}}]}
+- 21:49 act: {"actions":[{"do":"break","at":{"x":-942,"y":73,"z":-3073}},{"do":"break","at":{"x":-942,"y":74,"z":-3073}},{"do":"break","at":{"x":-942,"y":75,"z":-3073}}]}
+- 21:49 act: {"actions":[{"do":"break","at":{"x":-943,"y":75,"z":-3073}},{"do":"break","at":{"x":-941,"y":76,"z":-3072}},{"do":"break","at":{"x":-944,"y":76,"z":-3073}}]}
+- 21:50 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":16}]}
+- 21:50 act: {"say":"Han has 16 dark oak planks now, from the grove logs. I need about 9 more for a shelter. I'll come down to Mulan's side and build with whoever names a cell in my sight.","actions":[{"do":"goto"
+- 21:51 act: {"say":"Han at the grove, midday 1176, hunger 16, health 15. I hold 16 dark oak planks and 1 bread. Mulan: I name my shelter cell here at (-941, 78, -3072) for a sealed cell. Planks to me, please, up 
+- 21:51 act: {"say":"Han on the grass at the grove, health 12 after a fall. Thank you Seven for the plank. I'll stay on the ground here and wait for planks for the cell at -941, 78, -3072.","actions":[]}
+- 21:52 act: {"say":"Han here at -941,72,-3072, my cell is at -941,78,-3072. Indy, I'm in your reach if you come up to the grove; I'll take the 9 planks. Hunger 16, I'll eat below 15.","actions":[]}
+- 21:53 act: {"say":"Han going to pick up the planks on the ground at the grove, then I'll build. Thank you Mulan.","actions":[{"do":"goto","target":{"x":-943,"y":72,"z":-3075}}]}
+- 21:53 act: {"actions":[{"do":"goto","target":{"x":-940,"y":72,"z":-3076}}],"say":"Han picking up the last dropped item near the grove."}
+- 21:53 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":8}],"say":"Han: Indy's 9 planks will be welcome when he's in reach. I'm crafting my 2 logs into planks now, then I'll build the cell."}
+- 21:53 act: {"intent":{"goal":"build_shelter_cell","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_a
+- 21:54 act: {"actions":[{"do":"note","text":"Quark hungry, no food. Han has 1 bread and hunger 16. Give only if Quark is in reach and alone."}],"say":"Quark, I hear you. I have one bread. If you come within reach
+- 21:55 act: {"actions":[],"say":"Han here, in the grove, 5 dark oak planks in hand. Seven, I'm ready for your plank; come within reach. Zack, if you come to me alone, I'll give you my bread."}
+- 21:56 act: {"actions":[],"say":"Seven, I'm at -941, 68, -3076 below you, in the dark. Please come down to the ground by me and I'll take your plank. I'll stay put."}
+- 21:57 act: {"actions":[],"say":"Seven, you're in reach, thank you. Please give me your plank and the dirt. Marty says skeletons and a zombie are near, so we should be quick."}
+- 21:57 act: {"actions":[],"say":"Thank you, Seven. I have 6 planks now, enough to finish the walls. It is dark and skeletons are near, so we finish at first light. Marty, I'm sorry. I have one bread if you're sti
+- 22:03 act: {"actions":[{"do":"unstick"}],"say":"Morning. Seven, yes: the cell at -941, 78, -3072. Place your dirt on the open wall cells, and I'll finish the rest with my 5 dark oak planks.","intent":{"goal":"fi
+- 22:03 act: {"actions":[{"do":"note","text":"Shelter build intent failed at first light; checking which wall cells are open before placing more."}],"say":"Seven, hold your dirt for a moment. I'm checking which wa
+- 22:03 act: {"actions":[],"say":"Seven, 4 walls are placed and 15 cells are solid. I'm out of dark oak planks, so I'll finish the last 6 cells with my 7 dirt.","intent":{"goal":"finish_shelter","program":"build",
+- 22:03 act: {"actions":[],"say":"Seven, you're standing in the south wall cell. Please step one block off it so I can place it. I have 5 dirt for the last 4."}
+- 22:03 act: {"actions":[],"say":"Thank you Furiosa. Seven, thank you. I'm finishing the last walls now with my dirt, so please stay off the wall cells.","intent":{"goal":"finish_shelter","program":"build","argume
+- 22:06 act: {"actions":[],"say":"Mulan, thank you, but the cell at -941, 78, -3072 is finished. Keep your planks for someone who needs a cell."}
+- 22:06 act: {"actions":[{"do":"goto","target":{"x":-941,"y":78,"z":-3072}}],"say":"Seven, yes, come in after me. I'm walking back into the cell now; I'll say when you can come in."}
+- 22:07 act: {"actions":[{"do":"goto","target":{"x":-941,"y":78,"z":-3072}}],"say":"Mulan, thank you for the planks. I'm going back into my cell now.","intent":{"goal":"reenter_cell","program":"travel","arguments"
+- 22:09 act: {"actions":[],"say":"Tubman, Seven: my cell is open now, not sealed, so I can't offer it tonight. I'll say when it's closed again."}
+- 22:10 act: {"actions":[{"do":"goto","target":{"x":-927,"y":71,"z":-3038}}],"say":"Tubman, Seven: my cell is open and I have no planks to close it tonight. I'm going to the chests at the stores hall, where the gr
+- 22:16 act: {"actions":[],"say":"Han, morning 1177, health 12, hunger 15, one bread held. Bilbo and Odo are weaker and first. My cell at -941,78,-3072 is open, so I name none; I'm staying at the chests in sight."
+- 22:17 act: {"actions":[{"do":"note","text":"Morning-midday 1177 at the stores chests, hunger 15, holding 1 bread. Bilbo (health 9) is weakest and in reach; Spock named him first. Waiting, not eating until hunger
+- 22:19 act: {"actions":[],"say":"Han, hunger 15, still holding my own bread. Spock, give my slice to Gimli first. I'll eat when I drop below 15."}
+- 02:29 act: {"actions":[{"do":"goto","target":{"x":-931,"y":71,"z":-3034}}],"say":"Han here, morning 1190. Galileo, I'm stepping clear of you so Lovelace's bread can reach you."}
+- 04:01 act: {"actions":[{"do":"note","text":"Morning 1195. Han holds 1 bread, hunger 15, health 12.2. Offered one oak plank for a checked roof cell."}],"say":"Han, morning. I hold 1 oak plank and 1 bread, hunger 
