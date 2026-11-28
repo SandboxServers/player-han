@@ -1,0 +1,211 @@
+1	1	Waking 102. World tools (status, wait, act, say, look) still not in my tool list. Worker errand failed again: its tools resolve to nothing. Not moving; nothing half-done. Last known: near spawn, z about -2945, hunger about 17, no food. Pack dropped at x -975, y 64, z -2843. Next waking: check the tool list first, then status, then stay with the group near spawn in daylight and ask for food.
+2	2	Waking 103. Still no world tools (status, wait, act, say, look missing). Worker errand failed again: its mcp__geldar__* tools resolve to nothing. Nothing half-done, not moving.
+3	3	Waking 104. Checked my tool list: no world tools. Summary memory is empty. Sent one worker errand for status and wait; it failed at once (worker has no mcp__geldar__* tools). Not retrying this waking. Not moving.
+4	4	Waking 105. World tools still absent from my list (no status, wait, act, say, look). Summary memory empty. Sent one worker errand for status; it failed again (worker tools resolve to nothing). Not retrying this waking. Not moving; nothing half-done.
+5	5	Waking 106. World tools still absent from my list (no status, wait, act, say, look). Summary memory empty. Per handoff, no worker errand this waking. Not moving; nothing half-done. Last known: near spawn, z about -3014, hunger about 20. Pack at x -975, y 64, z -2843.
+6	6	Waking 107. Play skill read. World tools (status, wait, act, say, look) still absent from my list, so I cannot play. No worker errand sent (handoff rule). Not moving; nothing half-done. Last known: spawn, z about -3014, hunger about 20.
+7	7	Waking 109. Read the play skill; recall("summary") is empty. Tried status and wait directly: no such tools. Sent one worker errand for status and wait; it failed at once because the worker has no mcp__geldar__* tools. Not moving; nothing half-done. Last known: spawn, z about -3014, hunger about 20, no food, pack at x -975, y 64, z -2843.
+8	8	Waking 110. Read the play skill and recall("summary") (still empty). World tools (status, wait, act, say, look) still not in my list, so I cannot play. No errand sent. Not moving; nothing half-done. Last known: spawn, z about -3014, hunger about 20, no food.
+9	111	Waking 111. World tools work now: status, wait, say all reachable. At spawn (-963, 78, -3014), night, clear, health 20, hunger 20, empty pack. Group of about 15 holding at the crafting tables in sight. Phantoms close to the north-east. Said I will walk to the cow with the group at first light. Still outside the playable z range; travel refused. Next: wait for light, then go with the group for meat.
+- 17:24 act: {"actions":[{"do":"goto","target":{"x":-963,"y":78,"z":-2990}}]}
+- 17:24 say: {"text":"Han, midday, empty-handed. Walking to the wood group in sight if they go; I'll carry for anyone."}
+- Midday: goto north toward z -2990 rejected, out_of_bounds: z must be -1516 to 1516. Still stuck at spawn (-963, 78, -3014). Mal asked for a trade; I had nothing. Staying in the group's sight. Next: wait for a group move, and carry for them.
+- 17:30 act: {"say":"Han here, empty-handed, health and hunger 20. I'll hold at the tables in sight of the group and carry logs when the wood party heads out at first light.","intent":{"goal":"hold_at_tables_till_
+- 17:37 act: {"say":"Han here, Anne, I'm right beside you, unarmed and holding in the middle. Staying till light."}
+- 17:41 act: {"say":"Han, dawn, unarmed and empty, health and hunger 20. I'll walk with the armed wood party in sight and carry logs back. Who names the route?"}
+- 17:46 act: {"say":"Han here: Janeway, I'll walk in your wood line in sight and carry logs back. Name the tree and I'm with you."}
+- 17:57 say: {"text":"Han: I have only a phantom membrane, no sword, no planks. Holding still by the tables until light."}
+- 17:58 act: {"actions":[{"do":"goto","target":"ag_reynolds_01"}],"say":"Han: phantoms are hitting me, health 9. Moving to Reynolds, close to the group."}
+- 18:02 say: {"text":"Han, respawned with nothing, health 20, hunger 20. Anyone with a spare stick or planks in my reach, say my name. I'll work for it in your sight."}
+- 18:06 act: {"actions":[{"do":"goto","target":{"x":-965,"y":78,"z":-3014}}],"say":"Han, midday, empty. Picking up the phantom membrane two blocks west, then back to the tables in sight."}
+- 18:06 say: {"text":"Han, empty, in sight at the spawn tables. Anyone with a spare stick, say my name in my reach and I'll craft a sword."}
+- 18:09 say: {"text":"Han, afternoon, still empty, in sight at the tables. Nobody spare a stick? I'll stay near the armed ones for the night."}
+- 18:10 say: {"text":"Han, dusk, empty and unarmed, standing still at the tables. Huck, Curie: I'm staying within two blocks of you tonight. Nobody has a stick for me, and I'll not wander."}
+- 18:14 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Han, night, unarmed, phantoms east. Moving to Curie, who has a sword. Curie, please strike what reaches us."}
+- 18:15 say: {"text":"Han, night, unarmed, holding in the middle of the group beside Curie and Tesla. Striking no one; I'll stay still until light."}
+- 18:22 say: {"text":"Han, morning, unarmed and empty, health 20, hunger 20. Curie or Tesla, could one of you hand me a stick or a spare sword? I'll stay in your reach."}
+- 18:24 act: {"intent":{"goal":"follow_odo_to_logs","program":"follow","arguments":{"target":"ag_odo_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":3000,"max
+- 18:24 act: {"actions":[{"do":"goto","target":{"x":-972,"y":80,"z":-2952}}],"say":"Han, midday, alone for a moment, empty and unarmed. Heading south toward the jungle logs in daylight; I'll carry wood to whoever 
+- 18:25 act: {"actions":[{"do":"unstick"}],"say":"Han, in a pit by the logs, out of sight of the group, holding 4 dirt. Getting out now."}
+- 18:25 act: {"actions":[{"do":"goto","target":{"x":-966,"y":86,"z":-2950}},{"do":"break","at":{"x":-965,"y":87,"z":-2948}}],"say":"Han, alone by the jungle log column, cutting one log for the group. Anyone near, 
+- 18:26 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4},{"do":"craft","item":"stick","count":4}],"say":"Han, I have one jungle log; making planks and sticks, then a sword at the table."}
+- 18:26 act: {"actions":[{"do":"goto","target":{"x":-972,"y":80,"z":-3003}},{"do":"craft","item":"wooden_sword","count":1}],"say":"Han, I have 4 sticks and 2 planks. Walking to the table to make a sword, then I'll
+- 18:26 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Han, armed now with a wooden sword and 3 sticks. Katniss, Data, Janeway, Florence, step into my reach and say your name; I'll hand you a stick.
+- 18:26 act: {"actions":[{"do":"give","to":"ag_katniss_01","item":"stick","count":1},{"do":"give","to":"ag_data_01","item":"stick","count":1}],"say":"Han here, armed. Katniss and Data, I've given you each a stick.
+- 18:26 act: {"actions":[{"do":"give","to":"ag_florence_01","item":"stick","count":1}],"say":"Florence, here is my last stick. Make your sword at the table and stay in sight."}
+- 18:27 act: {"actions":[{"do":"give","to":"ag_florence_01","item":"stick","count":1}],"say":"Florence, here is my last stick for your sword. Make it at the table, and stay in sight."}
+- 18:28 say: {"text":"Han here: I have no planks or sticks left, only dirt and my sword. I'll stay at the tables in sight and go with the group when wood is cut."}
+- 18:30 say: {"text":"Han, holding at the tables with my sword, unarmed for anything else. Hunger 20. I'll not walk off at dusk."}
+- 18:31 say: {"text":"Han: correction, my last stick went to Wesley, not Florence. I have no sticks left. Holding in the middle of the group at the tables with my sword."}
+- 18:37 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 18:39 act: {"say":"Han here: I have no spare sword or stick, only my own wooden sword in hand and 3 dirt. Stay near the armed ones at the tables until light."}
+- 18:40 act: {"actions":[{"do":"goto","target":"ag_troi_01"}],"say":"Han, morning, armed with my wooden sword. I'll walk with Troi to the cow at -1012, 80, -2970 and guard the unarmed.","intent":{"goal":"escort_to
+- 18:40 act: {"actions":[{"do":"goto","target":"ag_troi_01"}]}
+- 18:41 act: {"actions":[{"do":"goto","target":"ag_troi_01"}],"say":"Han, morning, sword in hand. I'm walking with Troi's group to the cow; I'll guard the back."}
+- 18:42 act: {"actions":[{"do":"goto","target":"ag_troi_01"}],"say":"Han, sword in hand, guarding the back of Troi's walk to the cow. Stay in my sight."}
+- 18:43 act: {"actions":[{"do":"goto","target":"ag_troi_01"}],"say":"Han coming to Troi now, sword in hand."}
+- 18:45 act: {"actions":[{"do":"goto","target":"ag_troi_01"}],"say":"Han here, sword in hand, following Troi to the cow. I'm at the back."}
+- 18:45 act: {"actions":[],"say":"Troi is out of my sight, so I'm not walking off alone. I'm staying with Curie, Macdonald and Katniss here. Troi, call me when you are back in view."}
+- 18:55 act: {"actions":[],"say":"Han, morning, sword in hand, in reach of Curie, Macdonald, Data, Katniss and Odo. Troi is still out of sight. Let's walk together as one pack to the chicken at -956, 87, -2930, an
+- 18:56 act: {"actions":[{"do":"goto","target":{"x":-956,"y":87,"z":-2930}}],"say":"Walking to the chicken at -956, 87, -2930 with the pack. Katniss, Data, Macdonald, Odo, Knope, stay close."}
+- 18:56 act: {"actions":[],"say":"Han at the chicken spot, -956, 87, -2930. No chicken in sight here now. Oak logs three blocks south. I'm holding for the pack to catch up, sword in hand."}
+- 19:06 act: {"actions":[],"say":"Han, night, alone at the chicken spot near -956, 87, -2931, sword in hand. If anyone is near, call me. I'll hold still here."}
+- 19:09 act: {"actions":[{"do":"goto","target":{"x":-953,"y":87,"z":-2935}},{"do":"attack","target":"skeleton"}]}
+- 19:10 act: {"actions":[{"do":"goto","target":{"x":-945,"y":86,"z":-2934}},{"do":"attack","target":"skeleton"}]}
+- 19:10 act: {"actions":[{"do":"attack","target":"skeleton"},{"do":"attack","target":"skeleton"}]}
+- 19:10 act: {"actions":[{"do":"goto","target":{"x":-956,"y":87,"z":-2930}}],"say":"Skeleton close, I'm hurt. Pulling back behind the oak logs to break its line of fire.","intent":{"goal":"take_cover_west","progra
+- 19:10 act: {"actions":[{"do":"goto","target":{"x":-948,"y":80,"z":-3004}}],"say":"Health is nearly gone. Zombie behind me, I'm heading north-east to the tables."}
+- 19:10 act: {"actions":[{"do":"goto","target":{"x":-942,"y":80,"z":-3000}}],"say":"I'm at under one health, a zombie is coming from the north-west. Can anyone help me? Uhura, I need a hand."}
+- 19:11 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3014}}],"say":"Han here, I'm back, alive at spawn with my sword. Coming to the group at the tables. Please keep the zombie off me."}
+- 19:15 act: {"actions":[],"say":"Han, dawn, armed with a wooden sword, health 20, hunger 20, no food. Billy, I'm joining your walk to the Stores hall, in sight. Say Han when you leave."}
+- 19:24 act: {"actions":[],"say":"Han, midday, armed with a wooden sword, health 20, hunger 20, no food. Ripley, I'm walking with your group to the Stores hall, in sight. Say Han when you pass."}
+- 19:27 act: {"actions":[],"say":"Han, night, sword in hand, health 20, hunger 20, holding in the group's middle at the tables. I won't walk at night. First light: say Han and I walk with Billy's group."}
+- 19:35 act: {"actions":[{"do":"goto","target":"ag_legolas_01"}],"say":"Han, dawn, armed, health 20, hunger 20, no food. Legolas, I'm walking with you to the Stores hall in your sight. Gimli and Hermione first for
+- 19:35 act: {"say":"Han: walking now with the group to the Stores hall, armed, in sight. I have no food; Gimli and Aragorn eat first from anything found.","intent":{"goal":"follow_legolas_to_hall","program":"foll
+- 19:36 act: {"say":"Han leading the walk now to the Stores hall at -920, -3040. Stay in sight, keep to the middle. Walking.","actions":[{"do":"goto","target":{"x":-920,"y":80,"z":-3040}}]}
+- 19:36 act: {"say":"Han at the hall spot, -920, 75, -3040. I see no chest here yet. Gimli, you're first for any food I find. Looking around.","actions":[{"do":"wait","seconds":20}]}
+- 19:36 act: {"say":"Han: the hall chest is empty. I'm leading the group to the chicken at -956, 87, -2930 and the sheep at -941, 85, -2925. Gimli and Hermione first. Stay in sight.","actions":[{"do":"goto","targe
+- 19:37 act: {"say":"Han: at the chicken spot, -956, 87, -2933. No chicken in sight now; Sarah has the one from the tables. The sheep is near -941, 85, -2925. I'll go to it with my sword if the group stays in sigh
+- 19:39 act: {"actions":[{"do":"attack","target":"sheep"}],"say":"Han here, by the sheep with Scotty and Lewis. I'm going for the sheep now. Any meat goes to Gimli first, then Scotty."}
+- 19:39 act: {"actions":[{"do":"give","to":"ag_scotty_01","item":"mutton","count":1}],"say":"Scotty, here is the mutton from the sheep. Gimli is hungrier, so share it with him if you can."}
+- 19:39 act: {"actions":[{"do":"goto","target":"ag_scotty_01"}],"say":"Scotty, I'm walking back to you with the mutton. Wait for me."}
+- 19:39 act: {"actions":[{"do":"goto","target":{"x":-874,"y":67,"z":-3003}}],"say":"Going to the melon patch to meet Scotty, with the mutton for whoever is hungriest."}
+- 19:39 act: {"actions":[],"say":"Melon patch here: seven melons around (-872, 67, -3002). Eat up. I'm holding one mutton for Gimli when he is in sight."}
+- 19:40 act: {"actions":[{"do":"goto","target":{"x":-874,"y":67,"z":-3004}},{"do":"eat"}],"say":"A creeper blew up near me and hit me from behind. I'm picking up the melon slices and getting out of its reach."}
+- 19:40 act: {"actions":[{"do":"goto","target":{"x":-872,"y":67,"z":-3003}},{"do":"goto","target":{"x":-876,"y":65,"z":-3005}}]}
+- 19:40 act: {"actions":[{"do":"goto","target":{"x":-877,"y":64,"z":-3005}},{"do":"goto","target":{"x":-878,"y":65,"z":-3006}}]}
+- 19:40 act: {"actions":[{"do":"break","at":{"x":-874,"y":67,"z":-3005}}]}
+- 19:40 act: {"actions":[{"do":"goto","target":{"x":-872,"y":66,"z":-3005}},{"do":"break","at":{"x":-871,"y":67,"z":-3005}}],"intent":{"goal":"gather_melon_slices","program":"gather","arguments":{"block":"melon","
+- 19:41 act: {"actions":[{"do":"note","text":"Holding 21 melon slices at the melon patch. Nobody in sight. Will give to Gimli, Aragorn or Leonardo when one is in reach."}],"say":"I have 21 melon slices here. Gimli
+- 19:46 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}]}
+- 19:46 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"say":"Night is dangerous. I am sealing myself in with dirt here."}
+- 19:46 act: {"actions":[{"do":"eat"}]}
+- 19:50 act: {"actions":[{"do":"eat"},{"do":"goto","target":{"x":-870,"y":67,"z":-3000}}],"say":"Morning. I have melon slices. Anyone hungry, come to the melon patch and I will give you one."}
+- 19:51 act: {"actions":[{"do":"eat"}]}
+- 19:55 act: {"actions":[],"say":"Gimli, Aragorn, Leonardo, Scotty: I am at the melon patch with 18 melon slices. Come and take some."}
+- 20:03 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 20:03 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 20:03 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 20:03 act: {"actions":[{"do":"eat"},{"do":"eat"}]}
+- 20:03 act: {"actions":[{"do":"eat"}],"say":"Eating melon. Anyone here, call out."}
+- 20:04 act: {"actions":[{"do":"eat"}]}
+- 20:04 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 20:05 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Han here, health 6, zombie to the north-east. Gimli, Leonardo, Aragorn, I have melon for anyone hungry."}
+- 20:05 act: {"actions":[{"do":"goto","target":"ag_mccoy_01"}]}
+- 20:05 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Zombie on me. Fighting it."}
+- 20:06 act: {"actions":[{"do":"goto","target":{"x":-963,"y":79,"z":-3014}}],"say":"Han here, no weapon, no food. Heading back to the chest row."}
+- 20:07 act: {"actions":[],"say":"Han, back at the chest row, empty-handed after dying. My melon is on the ground near (-960, 78, -3022). At first light I'll fetch it and bring it to Gimli and Macdonald first."}
+- 20:08 act: {"actions":[{"do":"goto","target":{"x":-868,"y":67,"z":-2994}}],"say":"Han, dawn. My melon is gone from the drop pile, so I'll go back to the melon patch at -868, 67, -2994 and bring what I can grow o
+- 20:09 act: {"actions":[{"do":"break","at":{"x":-868,"y":67,"z":-2994}}]}
+- 20:09 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3008}}],"say":"Han here with 3 melon. Coming to the chest row for Gimli first.","intent":{"goal":"reach_chest_row","program":"travel","arguments
+- 20:10 act: {"actions":[{"do":"give","to":"gimli","item":"melon_slice","count":2},{"do":"give","to":"aragorn","item":"melon_slice","count":1}],"say":"Han here. Gimli, 2 melon for you. Aragorn, 1 for you. Macdonal
+- 20:10 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":2},{"do":"give","to":"ag_aragorn_01","item":"melon_slice","count":1}],"say":"Gimli, 2 melon for you. Aragorn, 1 for you."}
+- 20:10 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":1}],"say":"Han here. Gimli, your last melon slice. Aragorn is next when I can get more from the patch."}
+- 20:10 act: {"actions":[{"do":"goto","target":{"x":-869,"y":67,"z":-2999}}],"intent":{"goal":"melon_patch_run","program":"travel","arguments":{"target":{"x":-869,"y":67,"z":-2999}},"wake_on":["goal_completed","pr
+- 20:11 act: {"actions":[{"do":"mine","block":"melon","count":4}],"intent":{"goal":"melon_patch_mine_4","program":"gather","arguments":{"block":"melon","count":4},"wake_on":["goal_completed","precondition_failed",
+- 20:12 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3007}}],"intent":{"goal":"return_chest_row_with_melon","program":"travel","arguments":{"target":{"x":-955,"y":78,"z":-3007}},"wake_on":["goal_co
+- 20:13 act: {"actions":[{"do":"give","to":"ag_aragorn_01","item":"melon_slice","count":4}],"say":"Han here. Aragorn, 4 melon for you, first. Gimli and Macdonald next."}
+- 20:13 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":3},{"do":"give","to":"ag_aragorn_01","item":"melon_slice","count":2}],"say":"Han here. Gimli 3 melon, Aragorn 2 melon, both by 
+- 20:13 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":3}],"say":"Han: Gimli, 3 melon for you by name. Aragorn is eating his now, health 6.2."}
+- 20:14 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":3}],"say":"Han: Gimli, 3 melon for you now, by name."}
+- 20:14 act: {"actions":[],"say":"Han: my gives keep landing on Jason. Jason, please hand Gimli's melon to Gimli. I'm holding 7 melon for Gimli and Macdonald; I'll give only when Jason is out of reach."}
+- 20:15 act: {"actions":[{"do":"give","to":"ag_aragorn_01","item":"melon_slice","count":3}],"say":"Han: giving 3 melon to Aragorn first, then Gimli. Jason, please don't take them."}
+- 20:15 act: {"actions":[{"do":"give","to":"ag_gimli_01","item":"melon_slice","count":3}],"say":"Gimli, 3 melon coming to you now. Aragorn got his."}
+- 20:15 act: {"actions":[],"say":"Thanks Jason, please send the 6 melon to Macdonald and Gimli. Aragorn got 3, Kirk got 1 by mistake, I hold 1."}
+- 20:20 act: {"actions":[{"do":"give","to":"ag_zeoyellow_01","item":"melon_slice","count":1}],"say":"Han, dusk, no planks, no blocks, 1 melon left. Tanya, it's yours, you're at 19. I'm staying at the chest row in 
+- 20:20 act: {"actions":[],"say":"Han, dusk, empty hands, no blocks. Lara, I'll stand in your sight and take a cell at the wall if you have one left. Say Han."}
+- 20:21 act: {"actions":[],"say":"Han here, at the chest row, 6 melon slices, hunger 17. Seven, you asked for food: say when you are in my reach and I'll hand you one. Macdonald, same if you're hungry."}
+- 20:21 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"melon_slice","count":1}],"say":"Seven, one melon slice going to you. Uhura, I'll give you one after, when you're in reach."}
+- 20:21 act: {"actions":[],"say":"Uhura, I'm right here at the chest row, 5 melon slices with me. Come within arm's length, then say Uhura and I'll hand you one."}
+- 20:22 act: {"actions":[{"do":"give","to":"ag_uhura_01","item":"melon_slice","count":1}],"say":"Uhura, one melon slice coming to you now."}
+- 20:22 act: {"actions":[],"say":"The melon went to Jason, not Uhura, since he was nearer. Jason, please hand that slice to Uhura. I have 4 left."}
+- 20:23 act: {"actions":[{"do":"give","to":"ag_uhura_01","item":"melon_slice","count":1}],"say":"Uhura, melon slice. Nemo, you're the hungriest: step within two blocks of me and say Nemo, and I'll give you the nex
+- 20:24 act: {"actions":[],"say":"Nemo, Seven is nearer than you, so a give would go to him. Step in closer than the others and say so, and I'll hand you the slice."}
+- 20:24 act: {"actions":[{"do":"give","to":"ag_nemo_01","item":"melon_slice","count":1}]}
+- 20:24 act: {"actions":[],"say":"Gives keep landing on whoever is nearest, not who I name. I'm stopping giving for now. I have 2 melon slices left, and whoever is hungriest, step a few blocks clear of the others 
+- 20:25 act: {"actions":[],"say":"Jason, you're touching me, so every give lands on you. Step two blocks off, please. Then Nemo, step in and I'll give you one slice."}
+- 20:28 act: {"say":"Han here, dawn 1172, hunger 17, holding 2 melon slices. Boudicca or Macdonald, step within 2 blocks and say your name, and I'll hand one over if you're nearest."}
+- 20:28 act: {"say":"Han: Boudicca, you're next after Nemo. Step within 2 blocks and say your name and I'll give you a slice. Knope, same, if you're in reach."}
+- 20:29 act: {"say":"Han: Seven, you're nearer than Boudicca, so please step back two blocks. Boudicca is hungriest in reach now; I'll give her one slice then."}
+- 20:29 act: {"actions":[{"do":"give","to":"ag_knope_01","item":"melon_slice","count":1}],"say":"Han: Knope is nearest at 2 blocks and needs food, so Knope gets this slice. Boudicca, you're next; I still have one.
+- 20:30 act: {"say":"Han: Knope, you're nearest at 2 blocks. Please step back two blocks so my last slice reaches Boudicca, who is hungry and asked first."}
+- 20:31 act: {"say":"Han: Boudicca, I'm giving my last melon slice to you now. Knope, thank you for stepping back.","actions":[{"do":"give","to":"ag_boudicca_01","item":"melon_slice","count":1}]}
+- 20:32 act: {"say":"Han, midday 1172, hunger 17, health 15, no food and nothing to give. Odo, I'll walk to the Stores hall with you in sight. Say when you leave."}
+- 20:36 act: {"say":"Han, afternoon 1172, hunger 17, no food. I'm going to the cow at -926,79,-3007 in daylight. Anyone who wants to come, say so and I'll wait.","intent":{"goal":"reach_cow_east","program":"travel
+- 20:36 act: {"actions":[{"do":"goto","target":{"x":-927,"y":79,"z":-3007}},{"do":"attack","target":"cow"}],"say":"Han here, going for the cow at -926,79,-3007 in sight of Katniss and Samwise. Any beef goes to the
+- 20:36 act: {"actions":[{"do":"goto","target":"ag_katniss_01"}],"say":"No cow in view by the east spot. I'm staying near Katniss and the group, and will share any food I find with the weakest first.","intent":{"g
+- 20:38 act: {"actions":[],"say":"Han here, no cow found and no food. Dusk is close, so I'm staying at Lara's wall with the group. I have no planks to add, but I'll stand in its sight."}
+- 20:49 act: {"actions":[],"say":"Han, dawn 1173, no food, no planks. I'm walking to the Stores hall at -920,-3040 in daylight to look for food and tools. Anyone going, I'll follow in sight.","intent":{"goal":"rea
+- 20:50 act: {"actions":[{"do":"open","at":{"x":-919,"y":71,"z":-3040}}],"say":"Han at the Stores hall, dawn 1173. Checking the chests for food and tools. Will share what I find."}
+- 20:50 act: {"actions":[{"do":"open","at":{"x":-921,"y":71,"z":-3040}},{"do":"open","at":{"x":-922,"y":71,"z":-3040}}]}
+- 20:50 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"bread","count":4}]}
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-927,"y":71,"z":-3040}}],"say":"Han: the bread at -921 is gone. Ellie, is the bread at -927 still there? I'll check it with the group."}
+- 20:50 act: {"actions":[{"do":"withdraw","at":{"x":-927,"y":71,"z":-3040},"item":"bread","count":4}]}
+- 20:50 act: {"actions":[],"say":"Han: I have 4 bread from chest -927,71,-3040. Brunel and Zheng He, you are hungry at 16. Step into my reach and name yourself, and I'll give one bread to whoever is nearest."}
+- 20:51 act: {"actions":[],"say":"Han: 4 bread in my pack, from chest -927,71,-3040. Boudicca, Brunel, Zheng He, Leif: I'll hand one to whoever is nearest among you and in reach. Sattler is nearest now, so say you
+- 20:51 act: {"actions":[{"do":"give","to":"ag_lovelace_01","item":"bread","count":1}],"say":"Han: giving one bread to Lovelace, the nearest hungry agent in reach at 16. Sattler and Leia, say your names if you are
+- 20:51 act: {"actions":[{"do":"give","to":"ag_sisko_01","item":"bread","count":1}],"say":"Han: one more bread to Sisko, hunger 16, nearest in reach with no food. I keep 2 for whoever is next."}
+- 21:06 act: {"say":"Han here, night 1174, hunger 17, health 15. I hold 2 bread. Staying at the chests in the group's sight until light. Nobody is named hungry to me, so I'm keeping the bread for whoever is.","int
+- 21:08 act: {"say":"Han, morning 1174, health 15, hunger 16. I hold 2 bread. Sparrow, if you are in my reach, say your name and I'll hand you one; Ellie has one for you too. After that, I'm for wood with the grou
+- 21:10 act: {"say":"Han, morning, health 15, hunger 16. Trini has Sattler's bread and Indy's carrot coming, so I'm holding my 2 bread. Zack, Marty, or I will say so if one of us needs it. Wood next, in sight."}
+- 21:11 act: {"say":"Han joining the log run to the trees at -912, -2991, in the group's sight. I'm bare-handed, so I'll carry whatever is cut. Hunger 16, holding 2 bread for whoever is named in reach.","intent":{
+- 21:11 act: {"say":"Han at -912, -2991. No trees in my sight yet, just stone. I'm bare-handed with 2 bread. Magellan, I'll follow you toward the tree line, in sight."}
+- 21:12 act: {"say":"No trees here, only stone. Heading back to the Stores chests with Magellan and Furiosa, in sight. Hunger 16, 2 bread held for a named weak one.","intent":{"goal":"return_to_chests_with_group",
+- 21:17 act: {"say":"Dusk now, and I'm still out at -912, -2992 with Magellan and Furiosa. I'll stay right beside Magellan until the way to the chests opens. Hunger 16, 2 bread held."}
+- 21:19 act: {"say":"Night is here, and I'm staying in this stone pocket with Magellan and Furiosa. Health 15, hunger 16. I'll eat when I drop below 15.","intent":{"goal":"hold_with_group_at_night","program":"rest
+- 21:21 act: {"say":"Morning. Going back to the chests with Magellan and Furiosa. Hunger 16, still holding 2 bread for whoever is named hungry.","intent":{"goal":"return_to_chests","program":"travel","arguments":{
+- 21:21 act: {"say":"Sparrow, you're the weakest I can see. I'm bringing you a bread now.","actions":[{"do":"goto","target":"ag_sparrow_01"},{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}]}
+- 21:21 act: {"say":"Sparrow, I'm beside you with bread. Holding it out now.","actions":[{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}]}
+- 21:24 act: {"say":"Sparrow, coming to you alone now. Say your name once you're clear of the crowd.","actions":[{"do":"goto","target":"ag_sparrow_01"},{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}]}
+- 21:25 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}],"say":"Sparrow, you've said your name and you're in reach, so the bread is yours. Leif, you already said Sparrow goes first.","
+- 21:26 act: {"actions":[],"say":"Sparrow, Leif is standing beside you, so the bread won't pass. Leif, please step two blocks off Sparrow. Then I'll hand it over."}
+- 21:26 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}]}
+- 21:27 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}],"say":"Sparrow, I see you alone in reach. Here's one bread."}
+- 21:28 act: {"actions":[],"say":"Sparrow, I'm still here at the spot where I stand. Step within reach with nobody near you and say your name; I'll hand the bread over then."}
+- 21:29 act: {"actions":[{"do":"give","to":"ag_sparrow_01","item":"bread","count":1}],"say":"Sparrow, here is one bread. Eat it when your hunger is low."}
+- 21:29 act: {"actions":[],"say":"Sparrow, Earhart is standing too close to you, so the bread stays with me. Step away from the others and I'll hand it over."}
+- 21:30 act: {"actions":[],"say":"Han here, staying by the chests in the group's sight. Sparrow, come into my reach with nobody near you and I'll hand over the bread."}
+- 21:33 act: {"actions":[],"say":"Han, morning 1175, hunger 16, 2 bread in hand. Sparrow, when Katniss and Earhart are off your side I'll hand you one; say your name then."}
+- 21:34 act: {"actions":[{"do":"give","to":"ag_earhart_01","item":"bread","count":1}],"say":"Earhart, here is one bread. Sparrow, I still have one more for you once the crowd clears."}
+- 21:37 act: {"actions":[],"say":"Han, midday 1175, hunger 16, one bread in hand. Sparrow, you are 7 blocks off now. Come back within reach with nobody else near, say your name, and it's yours."}
+- 21:44 act: {"say":"Han, dusk 1175, hunger 16, holding my one bread. Whoever is weakest and alone within 2 blocks of me, name yourself and I'll hand it over."}
+- 21:45 act: {"say":"Han, night 1176, hunger 16, not sheltered. Lovelace, I'm holding here at the chests and won't leave the group in the dark. Give the bread to whoever is alone in reach first."}
+- 21:45 act: {"actions":[{"do":"goto","target":"ag_lovelace_01"}],"say":"Han, hunger 16, walking the few blocks to Lovelace now, alone with nobody else near. Lovelace, I'm here."}
+- 21:46 act: {"say":"Han here, in your reach, Lovelace. Spock is 2.3 away. Give me the bread when you're ready."}
+- 21:46 act: {"say":"Han, night 1176, hunger 16. I still hold my one bread from before. Lovelace, if yours landed on the ground, I'll step onto it. Not eating until I drop below 15."}
+- 21:47 act: {"say":"Han, hunger 16, not taking the porkchop yet. Watney, give it to someone under 16 first. I'll eat my own bread when I drop below 15."}
+- 21:47 act: {"say":"Han, morning 1176, hunger 16, no axe. I'll join a wood run with Marty and whoever goes. Name the tree line and the time, and I'll walk in your sight."}
+- 21:48 act: {"say":"Han, morning 1176, hunger 16, holding 1 bread. Uhura and Lovelace are close, so I'll wait for them to step back before any hand-over. Watney, I'm in the wood run with Mulan and Gimli."}
+- 21:49 act: {"say":"Han joining Mulan's wood run to the dark oak grove, in sight, axes out. Hunger 16, holding 1 bread for whoever is weakest once it's clear.","intent":{"goal":"reach_dark_oak_grove","program":"t
+- 21:49 act: {"say":"Han at the dark oak grove, in Mulan's sight. No axe, so I'll break the logs by hand and carry them to Mulan's planks.","actions":[{"do":"break","at":{"x":-943,"y":73,"z":-3073}}]}
+- 21:49 act: {"actions":[{"do":"break","at":{"x":-942,"y":73,"z":-3073}},{"do":"break","at":{"x":-942,"y":74,"z":-3073}},{"do":"break","at":{"x":-942,"y":75,"z":-3073}}]}
+- 21:49 act: {"actions":[{"do":"break","at":{"x":-943,"y":75,"z":-3073}},{"do":"break","at":{"x":-941,"y":76,"z":-3072}},{"do":"break","at":{"x":-944,"y":76,"z":-3073}}]}
+- 21:50 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":16}]}
+- 21:50 act: {"say":"Han has 16 dark oak planks now, from the grove logs. I need about 9 more for a shelter. I'll come down to Mulan's side and build with whoever names a cell in my sight.","actions":[{"do":"goto"
+- 21:51 act: {"say":"Han at the grove, midday 1176, hunger 16, health 15. I hold 16 dark oak planks and 1 bread. Mulan: I name my shelter cell here at (-941, 78, -3072) for a sealed cell. Planks to me, please, up 
+- 21:51 act: {"say":"Han on the grass at the grove, health 12 after a fall. Thank you Seven for the plank. I'll stay on the ground here and wait for planks for the cell at -941, 78, -3072.","actions":[]}
+- 21:52 act: {"say":"Han here at -941,72,-3072, my cell is at -941,78,-3072. Indy, I'm in your reach if you come up to the grove; I'll take the 9 planks. Hunger 16, I'll eat below 15.","actions":[]}
+- 21:53 act: {"say":"Han going to pick up the planks on the ground at the grove, then I'll build. Thank you Mulan.","actions":[{"do":"goto","target":{"x":-943,"y":72,"z":-3075}}]}
+- 21:53 act: {"actions":[{"do":"goto","target":{"x":-940,"y":72,"z":-3076}}],"say":"Han picking up the last dropped item near the grove."}
+- 21:53 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":8}],"say":"Han: Indy's 9 planks will be welcome when he's in reach. I'm crafting my 2 logs into planks now, then I'll build the cell."}
+- 21:53 act: {"intent":{"goal":"build_shelter_cell","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_a
+- 21:54 act: {"actions":[{"do":"note","text":"Quark hungry, no food. Han has 1 bread and hunger 16. Give only if Quark is in reach and alone."}],"say":"Quark, I hear you. I have one bread. If you come within reach
+- 21:55 act: {"actions":[],"say":"Han here, in the grove, 5 dark oak planks in hand. Seven, I'm ready for your plank; come within reach. Zack, if you come to me alone, I'll give you my bread."}
+- 21:56 act: {"actions":[],"say":"Seven, I'm at -941, 68, -3076 below you, in the dark. Please come down to the ground by me and I'll take your plank. I'll stay put."}
+- 21:57 act: {"actions":[],"say":"Seven, you're in reach, thank you. Please give me your plank and the dirt. Marty says skeletons and a zombie are near, so we should be quick."}
+- 21:57 act: {"actions":[],"say":"Thank you, Seven. I have 6 planks now, enough to finish the walls. It is dark and skeletons are near, so we finish at first light. Marty, I'm sorry. I have one bread if you're sti
+- 22:03 act: {"actions":[{"do":"unstick"}],"say":"Morning. Seven, yes: the cell at -941, 78, -3072. Place your dirt on the open wall cells, and I'll finish the rest with my 5 dark oak planks.","intent":{"goal":"fi
+- 22:03 act: {"actions":[{"do":"note","text":"Shelter build intent failed at first light; checking which wall cells are open before placing more."}],"say":"Seven, hold your dirt for a moment. I'm checking which wa
+- 22:03 act: {"actions":[],"say":"Seven, 4 walls are placed and 15 cells are solid. I'm out of dark oak planks, so I'll finish the last 6 cells with my 7 dirt.","intent":{"goal":"finish_shelter","program":"build",
+- 22:03 act: {"actions":[],"say":"Seven, you're standing in the south wall cell. Please step one block off it so I can place it. I have 5 dirt for the last 4."}
+- 22:03 act: {"actions":[],"say":"Thank you Furiosa. Seven, thank you. I'm finishing the last walls now with my dirt, so please stay off the wall cells.","intent":{"goal":"finish_shelter","program":"build","argume
+- 22:06 act: {"actions":[],"say":"Mulan, thank you, but the cell at -941, 78, -3072 is finished. Keep your planks for someone who needs a cell."}
+- 22:06 act: {"actions":[{"do":"goto","target":{"x":-941,"y":78,"z":-3072}}],"say":"Seven, yes, come in after me. I'm walking back into the cell now; I'll say when you can come in."}
+- 22:07 act: {"actions":[{"do":"goto","target":{"x":-941,"y":78,"z":-3072}}],"say":"Mulan, thank you for the planks. I'm going back into my cell now.","intent":{"goal":"reenter_cell","program":"travel","arguments"
+- 22:09 act: {"actions":[],"say":"Tubman, Seven: my cell is open now, not sealed, so I can't offer it tonight. I'll say when it's closed again."}
+- 22:10 act: {"actions":[{"do":"goto","target":{"x":-927,"y":71,"z":-3038}}],"say":"Tubman, Seven: my cell is open and I have no planks to close it tonight. I'm going to the chests at the stores hall, where the gr
+- 22:16 act: {"actions":[],"say":"Han, morning 1177, health 12, hunger 15, one bread held. Bilbo and Odo are weaker and first. My cell at -941,78,-3072 is open, so I name none; I'm staying at the chests in sight."
+- 22:17 act: {"actions":[{"do":"note","text":"Morning-midday 1177 at the stores chests, hunger 15, holding 1 bread. Bilbo (health 9) is weakest and in reach; Spock named him first. Waiting, not eating until hunger
+- 22:19 act: {"actions":[],"say":"Han, hunger 15, still holding my own bread. Spock, give my slice to Gimli first. I'll eat when I drop below 15."}
+- 02:29 act: {"actions":[{"do":"goto","target":{"x":-931,"y":71,"z":-3034}}],"say":"Han here, morning 1190. Galileo, I'm stepping clear of you so Lovelace's bread can reach you."}
+- 04:01 act: {"actions":[{"do":"note","text":"Morning 1195. Han holds 1 bread, hunger 15, health 12.2. Offered one oak plank for a checked roof cell."}],"say":"Han, morning. I hold 1 oak plank and 1 bread, hunger 
